@@ -56,4 +56,5 @@ function people_with_age_drink(int $old): string
             return 'drink whisky';
             break;
     }
+    // beter use match
 }
