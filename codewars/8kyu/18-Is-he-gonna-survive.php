@@ -34,5 +34,3 @@ Tests:
 function hero(int $bullets, int $dragons): bool{
     return $dragons * 2 <= $bullets;
 }
-
-echo hero(10, 5);
